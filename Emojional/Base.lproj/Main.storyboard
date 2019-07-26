@@ -24,7 +24,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="200"/>
                                 <state key="normal" title="🤩"/>
                                 <connections>
-                                    <action selector="shakeItOffLyrics:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jRA-gC-eII"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fj2-sl-EDT"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="moji" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3o0-jq-vEf">
@@ -40,7 +40,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="225"/>
                                 <state key="normal" title="🤠"/>
                                 <connections>
-                                    <action selector="vineQuotes:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tQ2-l7-045"/>
+                                    <action selector="showMessageWithSender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dgC-hD-wiC"/>
                                 </connections>
                             </button>
                         </subviews>
