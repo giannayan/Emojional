@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    let emojis = ["🤩": "starry-eyed", "🤠": "haw-yee",]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,10 +17,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showMessage(sender: UIButton) {
+            let selectedEmotion = sender.titleLabel?.text
         
-            let alertController = UIAlertController(title: "ALERT", message:"HII", preferredStyle: UIAlertController.Style.alert)
         
-            alertController.addAction(UIAlertAction(title:"OK", style: UIAlertAction.Style.default, handler: nil))
+        
+        let alertController = UIAlertController(title: "HII",  message: emojis[selectedEmotion!], preferredStyle: UIAlertController.Style.alert)
+        
+            alertController.addAction(UIAlertAction(title:("OK"), style: UIAlertAction.Style.default, handler: nil))
         
         present(alertController, animated: true, completion: nil)
         
